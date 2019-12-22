@@ -1,0 +1,61 @@
+.section-bg{
+    background-image: url(img/bg.jpeg);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    background-size: cover;
+}
+.section-padding,.container{
+    position: relative;
+}
+.text-area{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.text-area h3{
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.text-area p{
+    font-size: 15px;
+    color: #9e9e9e;
+    line-height: 1.7;
+}
+.text-area h3 span{
+    color: #14B4FC;
+}
+#accordion section{
+    border: 1px solid #dfdddd;
+    position: relative;
+    margin-top: 20px;
+    padding-left: 13px;
+    padding-right: 5px;
+}
+#accordion section p{
+    display: none;
+}
+#accordion section a{
+    text-decoration: none;
+}
+#accordion section a h5{
+    color: #000;
+    font-weight: 600;
+}
+#accordion section h5 i{
+    float: right;
+    font-size: 15px;
+    padding-right: 5px;
+}
+.rotate-icon::before {
+    transform: rotate(180deg);
+}
+#accordion section:target p{
+    display: block;
+    line-height: 1.7;
+}
